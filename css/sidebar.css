@@ -1,0 +1,22 @@
+@import './header.css';
+
+.sidebar{
+  background-color: var(--white);
+  block-size: 100vh;
+  inline-size: 100%;
+  max-inline-size: 248px;
+}
+
+.sidebar.close{
+  inline-size: 64px;
+  overflow: hidden;
+  transition: width .5s linear;
+  transition-delay: 0; 
+}
+
+.sidebar.open{
+  inline-size: 100%;
+  max-inline-size: 248px;
+  transition: width .5s linear;
+}
+

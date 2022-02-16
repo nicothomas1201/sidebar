@@ -1,0 +1,39 @@
+.header{
+  display: flex;
+  font: 700 1rem/1.5rem Manrope;  
+  gap: .5rem;
+  align-items: center;
+  padding: 1.25rem;
+}
+
+.header i{
+  font-size: 1.5rem;
+  color: var(--black);
+  cursor: pointer;
+}
+
+.header-logo img{
+  vertical-align: middle;
+}
+
+.header.close  .header-logo,
+.header.close   span {
+  opacity: 0;
+  transition:  opacity .5s linear;
+}
+
+.header.close{
+  padding-block: 0;
+  transition: padding-block .5s linear;
+}
+
+.header.open  .header-logo,
+.header.open   span {
+  opacity: 1;
+  transition:  opacity .5s linear;
+}
+
+.header.open{
+  padding-block: 1.25rem;
+  transition: padding-block .5s linear;
+}

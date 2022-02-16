@@ -1,0 +1,31 @@
+.nav-item{
+  color: var(--grey);
+  display: flex;
+  align-items: center;
+  gap: 1.3125rem;
+  padding-block: .75rem;
+  padding-inline: 1.25rem;
+  margin-inline-end: .5rem;
+  cursor: pointer;
+}
+
+.nav-item i{
+  color: var(--black);
+  font-size: 1.5rem;
+}
+
+.nav-item.is-active{
+  background-color: var(--blue-01);
+  border-radius: 0 12px 12px 0;
+  color: var(--primary);
+}
+
+.nav-item.close span{
+  opacity: 0;
+  transition: opacity .5s linear;
+}
+
+.nav-item.open span{
+  opacity: 1;
+  transition: opacity .5s linear;
+}

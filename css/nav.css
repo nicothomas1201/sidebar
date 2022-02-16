@@ -1,0 +1,26 @@
+@import './nav-item.css';
+
+/* .nav{
+  block-size: 100vh;
+} */
+
+.nav-list{
+  margin: 0;
+  padding: 0;
+  font:  700 1rem/1.5rem Manrope;
+}
+
+.nav-list .subheader{
+  color: var(--black);
+  font: 800 .635rem/0.9875rem Manrope;
+  margin-inline: 1.25rem;
+}
+
+.subheader.close{
+  display: none;
+}
+
+
+.subheader.open{
+  display: inline;
+}

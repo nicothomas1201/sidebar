@@ -1,0 +1,20 @@
+@import './icons.css';
+@import './sidebar.css';
+@import './nav.css';
+
+:root {
+  --black: #000000; 
+  --primary: #0f56b3; 
+  --grey-bg: #fbfbfb; 
+  --grey: #787878; 
+  --white: #ffffff; 
+  --blue-01: #C5DCFA;
+}
+
+body {
+  color: var(--black);
+  background-color: var(--primary);
+  margin: 0;
+  padding: 0;
+}
+
