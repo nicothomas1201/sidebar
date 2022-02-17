@@ -16,6 +16,10 @@
   margin-inline: 1.25rem;
 }
 
+.subheader{
+  display: none;
+}
+
 .subheader.close{
   display: none;
 }

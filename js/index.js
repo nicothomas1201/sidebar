@@ -37,4 +37,18 @@ function handleClickIcon(){
   
 }
 
+console.log($navItem)
+
+$navItem.forEach(item => {
+  item.addEventListener('click', handleClickNavItem)
+})
+
+
+function handleClickNavItem(e){
+  const $navItemSelected = document.querySelector('.nav-item.is-active')
+  $navItemSelected.classList.remove('is-active')
+  let $currentItem = this
+  console.log($currentItem)
+  $currentItem.classList.add('is-active')
+}
 
